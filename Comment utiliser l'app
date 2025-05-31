@@ -1,0 +1,14 @@
+# Cloner le dépôt
+git clone https://github.com/votre-username/rendez-vous-app.git
+cd rendez-vous-app
+
+# Installer les dépendances (backend et frontend)
+npm install
+cd client && npm install
+
+# Configurer les variables d'environnement
+cp .env.example .env
+# Éditer le fichier .env avec vos propres configurations
+
+# Démarrer l'application en mode développement
+npm run dev
